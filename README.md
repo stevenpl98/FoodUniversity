@@ -1,2 +1,2 @@
-# fooduniversity
+# FoodUniversity
 Food University App
