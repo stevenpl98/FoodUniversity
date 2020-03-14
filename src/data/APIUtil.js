@@ -13,6 +13,7 @@ var status;
 var price = 0;
 var instructions= [];
 var ingredients= [];
+var equipment= [];
 
 //REQUESTS*******************************************************************************************************
 //calls api to get recipes
@@ -32,6 +33,19 @@ function post()
         console.log(result.body);
     });
 }
+
+//
+function returnArray(array)
+{
+    setTimeout(function()
+    {
+        for(var i = 0; i < array.length; i++)
+        {
+            console.log(array[i]);
+        }
+    },500);
+}
+//
 
 //SEARCH**********************************************************************************************************
 //searches for recipes based on food context
@@ -66,8 +80,7 @@ function complexSearch(item)
     {
         status = result.status;
         console.log(status);
-        data = result.body['results'].missedIngredients;
-        var n = result.body['results']['missedIngredientCount'];
+        data = result.body['results'];
 
         console.log(data);
     }).catch(err => {
@@ -98,21 +111,10 @@ function getInstructions(id)
             instructions[step]= `${step+1}. ` + steps[step]['step'];
             //console.log(steps[step]['step']);
         }
-        sendInstructions(instructions);
+        returnArray(instructions);
     }).catch(err => {
         console.log(err)
     })
-}
-
-function sendInstructions(instructions)
-{
-    setTimeout(function()
-    {
-        for(var step = 0; step < instructions.length; step++)
-        {
-            console.log(instructions[step]);
-        }
-    },500);
 }
 
 //INGREDIENTS**************************************************************************************
@@ -136,6 +138,50 @@ function getIngredients(id)
             console.log(ingredients[i]);
         }
         //console.log(data);
+        
+    }).catch(err => {
+        console.log(err)
+    })
+}
+
+//EQUIPMENT**************************************************************************************
+function getEquipment(id)
+{
+    //url = `${main}recipes/${id}/equipmentWidget?apiKey=${key}.json`;
+    url = `${main}recipes/${id}/analyzedInstructions?apiKey=${key}&stepBreakdown=true`;
+    headers = 
+    {
+        "Content-Type": "text/html"
+    }; 
+
+    get().then(result => 
+    {
+        status = result.status;
+        console.log(status);
+        body = result['raw_body'];
+        var parsedBody = JSON.parse(body);
+        
+        var step;
+        var equips;
+        var steps = parsedBody[0]['steps'];
+        var item = 0;
+        for(step = 0; step < steps.length; step++)
+        {
+            for(equips = 0; equips < 5; equips++)
+            {
+                try 
+                {
+                    equipment[item]= steps[step]['equipment'][equips]['name'];
+                    //console.log(`${equips + item + 1}. ` + equipment[item]);
+                    item = item + 1;
+                }
+                catch(err) 
+                {
+                    break;
+                }
+            }
+        }
+        returnArray(equipment);
         
     }).catch(err => {
         console.log(err)
@@ -199,5 +245,6 @@ var item = "chicken";
 //search(item);
 //complexSearch(item);
 //getInstructions(id);
-getIngredients(id);
+//getIngredients(id);
+getEquipment(id);
 //sendPrice(id);
