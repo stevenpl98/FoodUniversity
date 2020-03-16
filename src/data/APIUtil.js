@@ -3,7 +3,7 @@ const unirest = require('unirest');
 var CONFIG = require('../../config.json');
 
 var main = "https://api.spoonacular.com/";
-var key = CONFIG.keyS; //change to CONFIG.key if you do not have keyS or keyN
+var key = CONFIG.keyS; //during testing, change to CONFIG.key and add a key if you do not have keyS or keyN
 
 var url;
 var headers;
