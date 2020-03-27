@@ -17,41 +17,9 @@ var instructions= [];
 var ingredients= [];
 var equipment= [];
 
-//REQUESTS*******************************************************************************************************
-//calls api to get recipes
-function get()
-{
-    return unirest.get(url)
-    .headers(headers)
-}
-
-//posts (prob not needed)
-function post()
-{
-    return unirest.post(url)
-    .headers(headers)
-    .end(result => 
-    {
-        console.log(result.body);
-    });
-}
-
-//
-function returnArray(array)
-{
-    setTimeout(function()
-    {
-        for(var i = 0; i < array.length; i++)
-        {
-            console.log(array[i]);
-        }
-    },500);
-}
-//
-
 //SEARCH**********************************************************************************************************
 //searches for recipes based on food context
-function search(item)
+async function search(item)
 {
     //var data;
 
@@ -60,37 +28,53 @@ function search(item)
     {
         "Content-Type": "application/json"
     };
-    get().then(result => 
+    try 
     {
+        result = await unirest.get(url).headers(headers);
+
         status = result.status;
         console.log(status);
+        
         data = result.body['results'];
-        console.log(data);
-    }).catch(err => {
-        console.log(err)
-    })
+
+        //console.log(data);
+        return data;
+
+    } 
+    catch (error) 
+    {
+        
+    }
 }
 
-function complexSearch(item)
+async function complexSearch(item)
 {
     url = `${main}recipes/complexSearch?apiKey=${key}&query=${item}&addRecipeInformation=true&fillIngredients=true`;
     headers = 
     {
         "Content-Type": "application/json"
     };
-    get().then(result => 
+
+    try 
     {
+        result = await unirest.get(url).headers(headers);
+
         status = result.status;
         console.log(status);
+        
         data = result.body['results'];
 
-        console.log(data);
-    }).catch(err => {
-        console.log(err)
-    })
+        //console.log(data);
+        return data;
+
+    } 
+    catch (error) 
+    {
+        
+    }
 }
 //INSTRUCTIONS******************************************************************************************************
-function getInstructions(id)
+async function getInstructions(id)
 {
     //var data;
     
@@ -99,9 +83,10 @@ function getInstructions(id)
     {
         "Content-Type": "application/json"
     }; 
-
-    get().then(result => 
+    try 
     {
+        result = await unirest.get(url).headers(headers);
+
         status = result.status;
         console.log(status);
         body = result['raw_body'];
@@ -113,41 +98,48 @@ function getInstructions(id)
             instructions[step]= `${step+1}. ` + steps[step]['step'];
             //console.log(steps[step]['step']);
         }
-        returnArray(instructions);
-    }).catch(err => {
-        console.log(err)
-    })
+
+        return instructions;       
+    } 
+    catch (error) 
+    {
+        
+    }
 }
 
 //INGREDIENTS**************************************************************************************
-function getIngredients(id)
+async function getIngredients(id)
 {
     url = `${main}recipes/${id}/information?apiKey=${key}`;
     headers = 
     {
         "Content-Type": "application/json"
     }; 
-
-    get().then(result => 
+    try 
     {
+        result = await unirest.get(url).headers(headers);
+
         status = result.status;
         console.log(status);
+
         data = result.body['extendedIngredients'];
 
         for(var i = 0; i < data.length; i++)
         {
             ingredients[i] = data[i]['name'];
-            console.log(ingredients[i]);
+            //console.log(ingredients[i]);
         }
         //console.log(data);
+        return ingredients;
+    } 
+    catch (error) 
+    {
         
-    }).catch(err => {
-        console.log(err)
-    })
+    }
 }
 
 //EQUIPMENT**************************************************************************************
-function getEquipment(id)
+async function getEquipment(id)
 {
     //url = `${main}recipes/${id}/equipmentWidget?apiKey=${key}.json`;
     url = `${main}recipes/${id}/analyzedInstructions?apiKey=${key}&stepBreakdown=true`;
@@ -156,10 +148,13 @@ function getEquipment(id)
         "Content-Type": "text/html"
     }; 
 
-    get().then(result => 
+    try 
     {
+        result = await unirest.get(url).headers(headers);
+
         status = result.status;
         console.log(status);
+
         body = result['raw_body'];
         var parsedBody = JSON.parse(body);
         
@@ -183,11 +178,12 @@ function getEquipment(id)
                 }
             }
         }
-        returnArray(equipment);
+        return equipment;
+    } 
+    catch (error) 
+    {
         
-    }).catch(err => {
-        console.log(err)
-    })
+    }
 }
 
 //PRICE PER SERVING********************************************************************************
@@ -201,8 +197,10 @@ async function getPrice(id)
     {
         "Content-Type": "application/json"
     }; 
-    get().then(result => 
+    try 
     {
+        result = await unirest.get(url).headers(headers);
+
         status = result.status;
         console.log(status);
         data = result.body['summary'];
@@ -218,35 +216,14 @@ async function getPrice(id)
         {
             price = data.match(patt1);
         }
-        setPrice(price);
+        var myPrice = parseFloat(price).toFixed(2);
         
-        return price;
-        
-    }).catch(err => {
-        console.log(err)
-    })
+        return myPrice;
+    } 
+    catch (error) 
+    {
+        console.log(error); 
+    }
 }
 
-var myPrice = 0;
-function setPrice(result)
-{ 
-    myPrice = parseFloat(result).toFixed(2);
-}
-
-function sendPrice(id)
-{
-    getPrice(id);
-    setTimeout(function(){console.log(myPrice)},500);
-}
-
-//MAIN*************************************************************************************************
-
-var id = 521510
-var item = "chicken";
-
-//search(item);
-//complexSearch(item);
-//getInstructions(id);
-//getIngredients(id);
-getEquipment(id);
-//sendPrice(id);
+module.exports = { search, complexSearch, getInstructions, getIngredients, getEquipment, getPrice };
