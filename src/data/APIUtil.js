@@ -11,18 +11,21 @@ var url;
 var headers;
 
 var data;
+var ids= [];
 var status;
 var price = 0;
+var servings = 0;
+var readyTime = 0;
+var title;
 var instructions= [];
 var ingredients= [];
+var ingredientImgs= [];
 var equipment= [];
 
-//SEARCH**********************************************************************************************************
+// TEST SEARCH FUNCTIONS**********************************************************************************************************
 //searches for recipes based on food context
 async function search(item)
 {
-    //var data;
-
     url = `${main}recipes/search?apiKey=${key}&query=${item}&instructionsRequired=true`;
     headers = 
     {
@@ -33,7 +36,7 @@ async function search(item)
         result = await unirest.get(url).headers(headers);
 
         status = result.status;
-        console.log(status);
+        console.log("Search results status: " + status);
         
         data = result.body['results'];
 
@@ -60,7 +63,7 @@ async function complexSearch(item)
         result = await unirest.get(url).headers(headers);
 
         status = result.status;
-        console.log(status);
+        console.log("Complex Search results status: " + status);
         
         data = result.body['results'];
 
@@ -73,7 +76,100 @@ async function complexSearch(item)
         
     }
 }
-//INSTRUCTIONS******************************************************************************************************
+
+async function searchByCuisine(cuisine)
+{
+    url = `${main}recipes/search?apiKey=${key}&cuisine=${cuisine}&instructionsRequired=true`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    };
+
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Search by cuisine results status: " + status);
+        
+        data = result.body['results'];
+
+        //console.log(data);
+        return data;
+
+    } 
+    catch (error) 
+    {
+        
+    }
+}
+
+//GET IDs FROM SEARCH************************************************************************************************************
+//Above functions are tested and cover tests for these ID searches
+async function getIdsByItem(item, offset)
+{
+    url = `${main}recipes/search?apiKey=${key}&query=${item}&instructionsRequired=true&number=100&offset=${offset}`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    };
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Get ids by item status: " + status);
+        
+        data = result.body['results'];
+
+        for(var i = 0; i < data.length; i++)
+        {
+            ids[i] = data[i]['id'];
+            //console.log(ids[i]);
+        }
+        //console.log(data);
+        return ids;
+
+    } 
+    catch (error) 
+    {
+        
+    }
+}
+
+async function getIdsByCuisine(cuisine, offset)
+{
+    url = `${main}recipes/search?apiKey=${key}&cuisine=${cuisine}&instructionsRequired=true&number=100&offset=${offset}`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    };
+
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Get ids by cuisine status: " + status);
+        
+        data = result.body['results'];
+
+        for(var i = 0; i < data.length; i++)
+        {
+            ids[i] = data[i]['id'];
+            //console.log(ids[i]);
+        }
+        //console.log(data);
+        return ids;
+
+    } 
+    catch (error) 
+    {
+        
+    }
+}
+
+//RECIPE INFO*****************************************************************************************************************
 async function getInstructions(id)
 {
     //var data;
@@ -88,7 +184,7 @@ async function getInstructions(id)
         result = await unirest.get(url).headers(headers);
 
         status = result.status;
-        console.log(status);
+        console.log("Instructions status: " + status);
         body = result['raw_body'];
         var parsedBody = JSON.parse(body);
         var steps = parsedBody[0]['steps'];
@@ -107,7 +203,6 @@ async function getInstructions(id)
     }
 }
 
-//INGREDIENTS**************************************************************************************
 async function getIngredients(id)
 {
     url = `${main}recipes/${id}/information?apiKey=${key}`;
@@ -120,7 +215,7 @@ async function getIngredients(id)
         result = await unirest.get(url).headers(headers);
 
         status = result.status;
-        console.log(status);
+        console.log("Ingredients status: " + status);
 
         data = result.body['extendedIngredients'];
 
@@ -138,7 +233,76 @@ async function getIngredients(id)
     }
 }
 
-//EQUIPMENT**************************************************************************************
+async function getIngredientImages(id)
+{
+    url = `${main}recipes/${id}/information?apiKey=${key}`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    }; 
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Ingredient images status: " + status);
+
+        data = result.body['extendedIngredients'];
+
+        for(var i = 0; i < data.length; i++)
+        {
+            ingredientImgs[i] = "https://spoonacular.com/cdn/ingredients_100x100/" + data[i]['image'];
+            //console.log(ingredientImgs[i]);
+        }
+        //console.log(data);
+        return ingredientImgs;
+    } 
+    catch (error) 
+    {
+        
+    }
+}
+
+function ingredient(ingredient, image)
+{
+    this.ingredient = ingredient;
+    this.image = image;
+}
+
+async function getIngredientsWithImage(id)
+{
+    url = `${main}recipes/${id}/information?apiKey=${key}`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    }; 
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Ingredients with images status: " + status);
+
+        data = result.body['extendedIngredients'];
+        var objects = [];
+        var stringified = JSON.stringify(objects);
+
+        for(var i = 0; i < data.length; i++)
+        {
+            var ingredientObj = new Ingredient(data[i]['name'], "https://spoonacular.com/cdn/ingredients_100x100/" + data[i]['image']);
+            objects.push(ingredientObj);           
+        }
+
+        ingredients = JSON.parse(stringified);
+
+        return ingredients;
+    } 
+    catch (error) 
+    {
+        
+    }
+}
+
 async function getEquipment(id)
 {
     //url = `${main}recipes/${id}/equipmentWidget?apiKey=${key}.json`;
@@ -153,7 +317,7 @@ async function getEquipment(id)
         result = await unirest.get(url).headers(headers);
 
         status = result.status;
-        console.log(status);
+        console.log("Equipment status: " + status);
 
         body = result['raw_body'];
         var parsedBody = JSON.parse(body);
@@ -186,12 +350,8 @@ async function getEquipment(id)
     }
 }
 
-//PRICE PER SERVING********************************************************************************
 async function getPrice(id)
 {
-    //var data;
-    //var price = 0;
-
     url = `${main}recipes/${id}/information?apiKey=${key}&includeNutrition=false`;
     headers = 
     {
@@ -202,7 +362,7 @@ async function getPrice(id)
         result = await unirest.get(url).headers(headers);
 
         status = result.status;
-        console.log(status);
+        console.log("Price Per Serving status: " + status);
         data = result.body['summary'];
 
         var patt1 = /[0-9][.][0-9][0-9]/g;
@@ -218,7 +378,7 @@ async function getPrice(id)
         }
         var myPrice = parseFloat(price).toFixed(2);
         
-        return myPrice;
+        return myPrice * 1.0;
     } 
     catch (error) 
     {
@@ -226,4 +386,73 @@ async function getPrice(id)
     }
 }
 
-module.exports = { search, complexSearch, getInstructions, getIngredients, getEquipment, getPrice };
+async function getServings(id)
+{
+    url = `${main}recipes/${id}/information?apiKey=${key}&includeNutrition=false`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    }; 
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Servings status: " + status);
+        servings = result.body['servings'];
+
+        return servings;
+    } 
+    catch (error) 
+    {
+        console.log(error); 
+    }
+}
+
+async function getReadyTime(id)
+{
+    url = `${main}recipes/${id}/information?apiKey=${key}&includeNutrition=false`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    }; 
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Ready Time status: " + status);
+        readyTime = result.body['readyInMinutes'];
+
+        return readyTime;
+    } 
+    catch (error) 
+    {
+        console.log(error); 
+    }
+}
+
+async function getRecipeTitle(id)
+{
+    url = `${main}recipes/${id}/information?apiKey=${key}&includeNutrition=false`;
+    headers = 
+    {
+        "Content-Type": "application/json"
+    }; 
+    try 
+    {
+        result = await unirest.get(url).headers(headers);
+
+        status = result.status;
+        console.log("Recipe Title status: " + status);
+        title = result.body['title'];
+
+        return title;
+    } 
+    catch (error) 
+    {
+        console.log(error); 
+    }
+}
+
+module.exports = { search, complexSearch, searchByCuisine, getIdsByItem, getIdsByCuisine, getInstructions, getIngredients, getIngredientImages, getIngredientsWithImage, getEquipment, getPrice, getServings, getReadyTime, getRecipeTitle };
