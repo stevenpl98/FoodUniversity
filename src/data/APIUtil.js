@@ -254,7 +254,6 @@ async function getIngredientImages(id)
             ingredientImgs[i] = "https://spoonacular.com/cdn/ingredients_100x100/" + data[i]['image'];
             //console.log(ingredientImgs[i]);
         }
-        //console.log(data);
         return ingredientImgs;
     } 
     catch (error) 
@@ -263,7 +262,7 @@ async function getIngredientImages(id)
     }
 }
 
-function ingredient(ingredient, image)
+function Ingredient(ingredient, image)
 {
     this.ingredient = ingredient;
     this.image = image;
@@ -284,8 +283,8 @@ async function getIngredientsWithImage(id)
         console.log("Ingredients with images status: " + status);
 
         data = result.body['extendedIngredients'];
+        //console.log(data);
         var objects = [];
-        var stringified = JSON.stringify(objects);
 
         for(var i = 0; i < data.length; i++)
         {
@@ -293,6 +292,7 @@ async function getIngredientsWithImage(id)
             objects.push(ingredientObj);           
         }
 
+        var stringified = JSON.stringify(objects);
         ingredients = JSON.parse(stringified);
 
         return ingredients;
@@ -455,4 +455,11 @@ async function getRecipeTitle(id)
     }
 }
 
-module.exports = { search, complexSearch, searchByCuisine, getIdsByItem, getIdsByCuisine, getInstructions, getIngredients, getIngredientImages, getIngredientsWithImage, getEquipment, getPrice, getServings, getReadyTime, getRecipeTitle };
+function getRecipeImage(id)
+{
+    var image = `https://spoonacular.com/recipeImages/${id}-636x393.jpg`;
+
+    return image;
+}
+
+module.exports = { search, complexSearch, searchByCuisine, getIdsByItem, getIdsByCuisine, getInstructions, getIngredients, getIngredientImages, getIngredientsWithImage, getEquipment, getPrice, getServings, getReadyTime, getRecipeTitle, getRecipeImage };

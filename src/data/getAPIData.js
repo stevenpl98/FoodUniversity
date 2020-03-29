@@ -1,4 +1,4 @@
-const {search, complexSearch, searchByCuisine, getIdsByItem, getIdsByCuisine, getInstructions, getIngredients, getIngredientImages, getIngredientsWithImage, getEquipment, getPrice, getServings, getReadyTime, getRecipeTitle} = require('./APIUtil');
+const {search, complexSearch, searchByCuisine, getIdsByItem, getIdsByCuisine, getInstructions, getIngredients, getIngredientImages, getIngredientsWithImage, getEquipment, getPrice, getServings, getReadyTime, getRecipeTitle, getRecipeImage} = require('./APIUtil');
 
 function sendSearch(item)
 {
@@ -121,6 +121,11 @@ function sendRecipeTitle(id)
     });
 }
 
+function sendRecipeImage(id)
+{
+    console.log(getRecipeImage(id));
+}
+
 //MAIN**********************************************************************************************
 
 function main() 
@@ -159,7 +164,7 @@ function main()
     var item = "chicken";
     var cuisine = cuisines[0];
 
-    sendSearch(item);
+    //sendSearch(item);
 
     //sendComplexSearch(item);
 
@@ -175,6 +180,8 @@ function main()
 
     //sendIngredientImages(id)
 
+    //sendIngredientsWithImage(id);
+
     //sendEquipment(id);
 
     //sendPrice(id);
@@ -185,7 +192,7 @@ function main()
 
     //sendRecipeTitle(id)
 
-    //sendIngredientsWithImage(id);
+    sendRecipeImage(id)
 }
 
 main();

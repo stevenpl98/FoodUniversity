@@ -1,4 +1,4 @@
-const {search, complexSearch, searchByCuisine, getInstructions, getIngredients, getIngredientImages, getIngredientsWithImage, getEquipment, getPrice, getServings, getReadyTime, getRecipeTitle} = require('../data/APIUtil');
+const {search, complexSearch, searchByCuisine, getInstructions, getIngredients, getIngredientImages, getIngredientsWithImage, getEquipment, getPrice, getServings, getReadyTime, getRecipeTitle, getRecipeImage} = require('../data/APIUtil');
 
 function test_search(item)
 {
@@ -726,10 +726,10 @@ function test_getIngredientImages(id)
         'https://spoonacular.com/cdn/ingredients_100x100/beef-tenderloin.png',
         'https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg',
         'https://spoonacular.com/cdn/ingredients_100x100/flour.png',
-        'https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg',
-        'https://spoonacular.com/cdn/ingredients_100x100/garlic.jpg',
+        'https://spoonacular.com/cdn/ingredients_100x100/garlic.png',
+        'https://spoonacular.com/cdn/ingredients_100x100/garlic.png',
         'https://spoonacular.com/cdn/ingredients_100x100/pepper.jpg',
-        'https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png',
+        'https://spoonacular.com/cdn/ingredients_100x100/mushrooms-white.jpg',
         'https://spoonacular.com/cdn/ingredients_100x100/olive-oil.jpg',
         'https://spoonacular.com/cdn/ingredients_100x100/spring-onions.jpg',
         'https://spoonacular.com/cdn/ingredients_100x100/seasoning.png',
@@ -744,7 +744,52 @@ function test_getIngredientImages(id)
 
 function test_getIngredientsWithImage(id)
 {
-    let expected;
+    let expected = [
+        {
+          ingredient: 'beef tenderloin',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/beef-tenderloin.png'
+        },
+        {
+          ingredient: 'butter',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg'
+        },
+        {
+          ingredient: 'flour',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/flour.png'
+        },
+        {
+          ingredient: 'garlic',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/garlic.png'
+        },
+        {
+          ingredient: 'garlic',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/garlic.png'
+        },
+        {
+          ingredient: 'ground pepper',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/pepper.jpg'
+        },
+        {
+          ingredient: 'mushrooms',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/mushrooms-white.jpg'
+        },
+        {
+          ingredient: 'olive oil',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/olive-oil.jpg'
+        },
+        {
+          ingredient: 'onion leaves',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/spring-onions.jpg'
+        },
+        {
+          ingredient: 'seasoning',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/seasoning.png'
+        },
+        {
+          ingredient: 'worcestershire sauce',
+          image: 'https://spoonacular.com/cdn/ingredients_100x100/dark-sauce.jpg'
+        }
+    ];
     test('Ingredients with image', () => {
         return getIngredientsWithImage(id).then(data => {
           expect(data).toMatchObject(expected);
@@ -803,6 +848,14 @@ function test_getRecipeTitle(id)
           expect(data).toBe(expected);
         });
     });
+}
+
+function test_getRecipeImage(id)
+{
+    let expected = 'https://spoonacular.com/recipeImages/521510-636x393.jpg'
+    test('Recipe image', () => {
+        expect(getRecipeImage(id)).toBe(expected)
+    })
 }
 //MAIN********************************************************************************************************
 
@@ -864,6 +917,8 @@ function runTests()
     test_getReadyTime(id);
 
     test_getRecipeTitle(id);
+
+    test_getRecipeImage(id)
 }
 
 runTests();
