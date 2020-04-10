@@ -210,7 +210,7 @@ Now, for both Mac OS and Windows, running the app is pretty much the same.
 
     then in a new terminal window...
 
-    `npx react-native run-android`
+    `npx react-native run-android` - builds and runs the app
 
 * The app should then start building and then running on your emulator's screen
 
