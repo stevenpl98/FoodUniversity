@@ -100,7 +100,7 @@ Setting up your development environment can be somewhat tedious if you're new to
 ---
 #### Mac OS
 
-You will need Node, Watchman, the React Native command line interface, a JDK, and Android Studio. While you can use any editor of your choice to develop your app, you will need to install Android Studio in order to set up the necessary tooling to build your React Native app for Android.
+You will need Node, Watchman, the React Native command line interface, JDK, and Android Studio. While you can use any editor of your choice to develop your app, you will need to install Android Studio in order to set up the necessary tooling to build your React Native app for Android.
 <br>
 <br>
 ##### Node & Watchman<br>
