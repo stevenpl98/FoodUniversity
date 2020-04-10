@@ -37,7 +37,7 @@ Open Command line and paste in the script below:
 Go to https://nodejs.org/download/release/v12.9.1/node-v12.9.1-win-x64.zip , download thee zip file, extract and run the installer within.
 
 ##### JDK
-Go to https://www.oracle.com/java/technologies/javase-downloads.html and install a JDK version 8 or higher from the choices for osx. If you have already installed JDK on your system, make sure it is JDK 8 or newer.
+Go to https://www.oracle.com/java/technologies/javase-downloads.html and install a JDK version 8 or higher from the choices for windows. If you have already installed JDK on your system, make sure it is JDK 8 or newer.
 
 ##### Android development environment
 Setting up your development environment can be somewhat tedious if you're new to Android development. If you're already familiar with Android development, there are a few things you may need to configure. In either case, please make sure to carefully follow the next few steps.
