@@ -20,8 +20,14 @@
 ## Getting Started
 
 ### Installation and Setup
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![System Variables Path](https://raw.githubusercontent.com/stevenpl98/FoodUniversity/testing/initial/images/System%20Variables%20Path.png)
+
+![System Variables](https://raw.githubusercontent.com/stevenpl98/FoodUniversity/testing/initial/images/System%20Variables.png)
+
+![User Variables Path](https://raw.githubusercontent.com/stevenpl98/FoodUniversity/testing/initial/images/User%20Variables%20Path.png)
+
+![System Variables Path](https://raw.githubusercontent.com/stevenpl98/FoodUniversity/testing/initial/images/System%20Variables%20Path.png)
 
 ### Run
 
