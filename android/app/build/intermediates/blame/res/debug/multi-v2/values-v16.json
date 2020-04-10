@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "C:\\Users\\sperez07\\Documents\\Github\\FoodUniversity\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/49cd363d5d875183936f0c1d0c656d7b/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\sperez07\\.gradle\\caches\\transforms-2\\files-2.1\\9446e7260b5c0d6633b01f7427825460\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/b9fb7c82be46a39907f0d2490923e13c/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\sperez07\\.gradle\\caches\\transforms-2\\files-2.1\\bdca859a45f3866fc71ae45c9ea2d93d\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
