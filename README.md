@@ -1,4 +1,5 @@
-![NodeJS Initial](https://github.com/stevenpl98/FoodUniversity/workflows/NodeJS%20Initial/badge.svg)
+![NodeJS Initial](https://github.com/stevenpl98/FoodUniversity/workflowsNodeJS%20Initial/badge.svg)
+
 # Food University
 
 ## Introduction
@@ -24,10 +25,12 @@
 
 ## Demo video
 
+Check out our demo video on youtube by clicking the link below:
+
 ## Contributors
 
-* Steven Perez, Team Lead
-*
-*
-*
+* Steven Perez- Team Lead, Backend, Frontend & Testing
+* Nick Burke- Front End & Backend
+* Wajih Khawaja- Front End & Backend
+* Reymond Kabuye- Front End
 
