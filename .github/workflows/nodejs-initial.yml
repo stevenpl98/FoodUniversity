@@ -5,8 +5,7 @@ name: NodeJS Initial
 
 on:
   push:
-    branches: 
-      - initial
+    branches: [ initial ]
 
 jobs:
   build:
