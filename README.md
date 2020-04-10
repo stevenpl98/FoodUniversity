@@ -28,13 +28,13 @@ While you can use any editor of your choice to develop your app, you will need t
 
 ##### Install Choco
 
-Open Command line and paste in the script below:
+Open command line as an administrator and paste in the script below:
 
 `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 
 ##### Install Nodejs
 
-Go to https://nodejs.org/download/release/v12.9.1/node-v12.9.1-win-x64.zip , download thee zip file, extract and run the installer within.
+Go to https://nodejs.org/download/release/v12.9.1/node-v12.9.1-win-x64.zip , download the zip file, extract and run the installer within.
 
 ##### JDK
 Go to https://www.oracle.com/java/technologies/javase-downloads.html and install a JDK version 8 or higher from the choices for windows. If you have already installed JDK on your system, make sure it is JDK 8 or newer.
