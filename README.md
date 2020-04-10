@@ -158,25 +158,21 @@ Go to https://www.oracle.com/java/technologies/javase-downloads.html and install
 ##### Create Android Emulator & Running Emulator
 You will usually have to create an Android Studio Project only for the first time and keep it around so that you can access the emulator. 
 
-If you already have an emulator set up start at step 11.
+If you already have an emulator set up start at step 7.
 
 1. Open Android Studio
-2. Click "Start a new Android Studio Project"
-3. Click next
-4. Modify name and save location to your liking
-5. Cick finish and let the app build
-6. Go to Tools > AVD Manager
-7. Click Create Virtual Device, at the bottom of the AVD Manager dialog. The Select Hardware page appears.
-8. Choose you android phone emulator device of choice
-9. Select the system image for API level 28, and then click Next.
-10. Click finish
-11. Before running app you have 2 choices:
-    *  Open Android Studio every time and load the project from step 5, and continue to step 12
-    *  Or if you're like me, run a script from your terminal of preference and skip to step 15
-12. Repeat step 6
-13. Click the green play button at the right of your emulator of choice
-14. The emulator should start booting up soon and keep it running
-15. Open your terminal of choice then:
+2. Go to Configure > AVD Manager
+3. Click Create Virtual Device, at the bottom of the AVD Manager dialog. The Select Hardware page appears.
+4. Choose you android phone emulator device of choice
+5. Select the system image for API level 28, and then click Next.
+6. Click finish
+7. Before running app you have 2 choices:
+    *  Run the emululator from Android Studio and continue to step 8
+    *  Or if you're like me, run a script from your terminal of preference and skip to step 11
+8. Open Android Studio, go to Configure > AVD Manager or repeat step 6 if you have created a project
+9. Click the green play button at the right of your emulator of choice
+10. The emulator should start booting up soon and keep it running
+11. Open your terminal of choice then:
 
     **Keep in mind that the in the second line ' _ ' represents a space in the name of your emulator**
     * For Mac OS   
@@ -190,7 +186,7 @@ If you already have an emulator set up start at step 11.
         `cd ~/AppData/Local/Android/sdk/emulator`
         
         `./emulator -avd Pixel_3_XL_API_28`
-16. Keep the emulator running
+12. Keep the emulator running
 
 
 ### Run
