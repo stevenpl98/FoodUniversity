@@ -1,217 +1,480 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-vector-icons] /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/c257fb3b54dc4216cd7d072a7234579d/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/b9fb7c82be46a39907f0d2490923e13c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/35d2085e0e77fded0ef6c9f145ea21aa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ff2f99ff367b8b0bf76a75a91e8b757b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/9f3cd58f9045da91664d5f30adebccba/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/f13121196032699c63061b8fdff8c23c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/8304f42ade9b18124bd2d637d03a4651/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/6ee5309739b3186aa07d9ede7c436d7a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/242ffb4033df2116089c5d0b61b99b34/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/0a7bc5701ce47e02cc15dfd05d1a45aa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/fd420bbeec980eaa5192d1e39e64535d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/90150809eff1272195e89e8763c5b936/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/047c15556579dd4eb241dd5bf5255590/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/b1199d859cf04b0962dcadff2c370f54/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/6ab1c0de51ab8bd03df4dd84ad7718dd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/49cd363d5d875183936f0c1d0c656d7b/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ea7e3a172313db248bb6c8cf23979b8c/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/60aece87d3dbfb374a18e6f080b1d281/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/249ddc5528c7ebd8705fe1691e816ec5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/15b49f08a4739774dbd786b78cafec06/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ad4b68958b207445ea41e4226a744de7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/82baa35ccd43efbcc32a28723d406088/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/dc23465a955f0d417fdd3503ff0dad9e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/11de469891efe57c8e0a2b08d11a333f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/aad3c345f5f354e47d4d3ca20670f316/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/f1a15b062726805fbc77e5b08921fd33/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/de5768686086a7706ee88cef6b0ae6d1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/44688f922cb4d1223f15990a3a03695a/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ec80fb24b166aae2f5d106acaa802013/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/7c57154837077c47eec2cf4add4a88f1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/2d95452fc9c817cbfaebbd6ea9c8d8ab/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/33ebbe74b4f97a2ce7c02c38c55b7603/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/4f81f588d4d28379977948c1d28476d9/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/9ef1e0f4bd96a64364b0961e910de0e0/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-screens] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/e4bd32a10cb851062d1d6816fa4d0ef9/AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-permissions] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/ff18b0b523310660e502302c16596028/AndroidManifest.xml:17:1-22:12
+MERGED from [:unimodules-react-native-adapter] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-app-loader-provider] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.transition:transition:1.1.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/60fb6abe42dd624d7b33fb8b6bf8be88/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/3b33107b9d5e598a916bda63ebd26390/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/324b91c5eeae0fc6abf5bfcfe2ed1bf9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/6d2003d0ba1ce819a01409319b8fd651/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/91c4ed88ccd9e845d129653fc8b34c62/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/6de2012c93f8736a6723e7be21ef8191/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/158477f2dff770a7c88010da947bd396/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/8a08ff07247c83800b9b01bed56b1d62/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/86a29ae36e0b33a15a8786fb914f2504/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/abf87c49b7750b5ad8e27a945ab5d834/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/7bc2c95e432efe7ff945fdb62d4721f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/340ae6bb959802a812bd51578371966e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/c1594b553643e4f6cec6052943647c15/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/df526d7800ea6470dce10e4035c41a43/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6f97472855b41e7cd3b78fb801a38546/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/1623571b72f7d966ec7de3ba9d84d63f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/27cf7731d998fbec99898fb6a63f498d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/0f1ed0b0811dca979e0ca8d182d985d5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/14083bf1223666c07e8fa2071618e797/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/cccb245ecd4fa5b7a617ef5b7bf41c55/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/a7e81fa4a5fcb840d9037c8a02327665/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1c537529cc63d9553f47d1d6e3baba1a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/f9820aea6d255592d72a1cff5d524b6e/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/00d01e79c7bada98bdf15e738d2e62b1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/49360698a9d3d880389a71bd82e23d17/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/19fbcb59b3a364596e6715b4ed43e168/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c3769644180ca37c2fb73db94839055b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/0d08505cf2d144d7ecf7bb8c3b3c32d5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/9306061ae32a4eafa6a142877cc80d9a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/4750d28ce93ce67b04fd4646f796fd62/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/eb703a87ede8d948a8899884835e3697/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/7c5a87a39bf010c43403f589cfbb2ab6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/674ad50a122a6f69f9ff37080a2151e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/736eb7a539df7f84b217570be368c018/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/32f7c906173fbbf6f6aa3ecd7991afc0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/c0cee50477f3f9bf0cadc7a10efe3e2e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/8a4c1dc113168e6335c4a5dc5d1fdc32/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/8c4d6cc712b770b7d6e99771385cdf7c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/de859a1de60e4d1e5eb41067bd2d0085/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/6de877c0a4b6d844b1f11cb864f78297/AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/f7002d75f1e831d694f9aca38275b90e/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
 	package
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:2:3-31
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:2:3-31
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:2:5-33
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml
-	xmlns:tools
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:4:22-64
-application
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/c257fb3b54dc4216cd7d072a7234579d/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/c257fb3b54dc4216cd7d072a7234579d/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/49cd363d5d875183936f0c1d0c656d7b/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/49cd363d5d875183936f0c1d0c656d7b/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ea7e3a172313db248bb6c8cf23979b8c/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ea7e3a172313db248bb6c8cf23979b8c/AndroidManifest.xml:22:5-23:19
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/4f81f588d4d28379977948c1d28476d9/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/4f81f588d4d28379977948c1d28476d9/AndroidManifest.xml:11:5-20
-	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/49cd363d5d875183936f0c1d0c656d7b/AndroidManifest.xml:22:18-91
-	android:label
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:8:7-39
-	tools:ignore
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:7:75-114
-	android:roundIcon
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:10:7-52
-	tools:targetApi
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:7:54-74
-	android:icon
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:9:7-41
-	android:allowBackup
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:11:7-34
-	android:theme
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:12:7-38
-	android:usesCleartextTraffic
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:7:18-53
-	android:name
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:7:7-38
-activity#com.fooduniversity.MainActivity
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:13:7-22:18
-	android:label
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:15:9-41
-	android:windowSoftInputMode
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:17:9-51
-	android:configChanges
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:16:9-79
-	android:name
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:18:9-21:25
-action#android.intent.action.MAIN
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:19:13-65
-	android:name
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:19:21-62
-category#android.intent.category.LAUNCHER
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:20:13-73
-	android:name
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:20:23-70
-activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:23:7-84
-	android:name
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml:23:17-81
-uses-sdk
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-vector-icons] /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/c257fb3b54dc4216cd7d072a7234579d/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/c257fb3b54dc4216cd7d072a7234579d/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/b9fb7c82be46a39907f0d2490923e13c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/b9fb7c82be46a39907f0d2490923e13c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/35d2085e0e77fded0ef6c9f145ea21aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/35d2085e0e77fded0ef6c9f145ea21aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ff2f99ff367b8b0bf76a75a91e8b757b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ff2f99ff367b8b0bf76a75a91e8b757b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/9f3cd58f9045da91664d5f30adebccba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/9f3cd58f9045da91664d5f30adebccba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/f13121196032699c63061b8fdff8c23c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/f13121196032699c63061b8fdff8c23c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/8304f42ade9b18124bd2d637d03a4651/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/8304f42ade9b18124bd2d637d03a4651/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/6ee5309739b3186aa07d9ede7c436d7a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/6ee5309739b3186aa07d9ede7c436d7a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/242ffb4033df2116089c5d0b61b99b34/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/242ffb4033df2116089c5d0b61b99b34/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/0a7bc5701ce47e02cc15dfd05d1a45aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/0a7bc5701ce47e02cc15dfd05d1a45aa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/fd420bbeec980eaa5192d1e39e64535d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/fd420bbeec980eaa5192d1e39e64535d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/90150809eff1272195e89e8763c5b936/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/90150809eff1272195e89e8763c5b936/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/047c15556579dd4eb241dd5bf5255590/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/047c15556579dd4eb241dd5bf5255590/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/b1199d859cf04b0962dcadff2c370f54/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/b1199d859cf04b0962dcadff2c370f54/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/6ab1c0de51ab8bd03df4dd84ad7718dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/6ab1c0de51ab8bd03df4dd84ad7718dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/49cd363d5d875183936f0c1d0c656d7b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/49cd363d5d875183936f0c1d0c656d7b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ea7e3a172313db248bb6c8cf23979b8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ea7e3a172313db248bb6c8cf23979b8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/60aece87d3dbfb374a18e6f080b1d281/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/60aece87d3dbfb374a18e6f080b1d281/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/249ddc5528c7ebd8705fe1691e816ec5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/249ddc5528c7ebd8705fe1691e816ec5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/15b49f08a4739774dbd786b78cafec06/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/15b49f08a4739774dbd786b78cafec06/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ad4b68958b207445ea41e4226a744de7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ad4b68958b207445ea41e4226a744de7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/82baa35ccd43efbcc32a28723d406088/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/82baa35ccd43efbcc32a28723d406088/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/dc23465a955f0d417fdd3503ff0dad9e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/dc23465a955f0d417fdd3503ff0dad9e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/11de469891efe57c8e0a2b08d11a333f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/11de469891efe57c8e0a2b08d11a333f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/aad3c345f5f354e47d4d3ca20670f316/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/aad3c345f5f354e47d4d3ca20670f316/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/f1a15b062726805fbc77e5b08921fd33/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/f1a15b062726805fbc77e5b08921fd33/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/de5768686086a7706ee88cef6b0ae6d1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/de5768686086a7706ee88cef6b0ae6d1/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/44688f922cb4d1223f15990a3a03695a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/44688f922cb4d1223f15990a3a03695a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ec80fb24b166aae2f5d106acaa802013/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/ec80fb24b166aae2f5d106acaa802013/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/7c57154837077c47eec2cf4add4a88f1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/7c57154837077c47eec2cf4add4a88f1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/2d95452fc9c817cbfaebbd6ea9c8d8ab/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/2d95452fc9c817cbfaebbd6ea9c8d8ab/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/33ebbe74b4f97a2ce7c02c38c55b7603/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/33ebbe74b4f97a2ce7c02c38c55b7603/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/4f81f588d4d28379977948c1d28476d9/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/4f81f588d4d28379977948c1d28476d9/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/9ef1e0f4bd96a64364b0961e910de0e0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/perezs4/.gradle/caches/transforms-2/files-2.1/9ef1e0f4bd96a64364b0961e910de0e0/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:5:5-77
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from /Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/src/debug/AndroidManifest.xml:5:22-75
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:16:5-81
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:25:22-70
+application
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/e4bd32a10cb851062d1d6816fa4d0ef9/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/e4bd32a10cb851062d1d6816fa4d0ef9/AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/324b91c5eeae0fc6abf5bfcfe2ed1bf9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/324b91c5eeae0fc6abf5bfcfe2ed1bf9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/6d2003d0ba1ce819a01409319b8fd651/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/6d2003d0ba1ce819a01409319b8fd651/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/91c4ed88ccd9e845d129653fc8b34c62/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/91c4ed88ccd9e845d129653fc8b34c62/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/158477f2dff770a7c88010da947bd396/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/158477f2dff770a7c88010da947bd396/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1c537529cc63d9553f47d1d6e3baba1a/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1c537529cc63d9553f47d1d6e3baba1a/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/f9820aea6d255592d72a1cff5d524b6e/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/f9820aea6d255592d72a1cff5d524b6e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/736eb7a539df7f84b217570be368c018/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/736eb7a539df7f84b217570be368c018/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/6de877c0a4b6d844b1f11cb864f78297/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/6de877c0a4b6d844b1f11cb864f78297/AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1c537529cc63d9553f47d1d6e3baba1a/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:29:7-38
+activity#com.fooduniversity.MainActivity
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-screens] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/e4bd32a10cb851062d1d6816fa4d0ef9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/e4bd32a10cb851062d1d6816fa4d0ef9/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/ff18b0b523310660e502302c16596028/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/ff18b0b523310660e502302c16596028/AndroidManifest.xml:20:5-44
+MERGED from [:unimodules-react-native-adapter] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/60fb6abe42dd624d7b33fb8b6bf8be88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/60fb6abe42dd624d7b33fb8b6bf8be88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/3b33107b9d5e598a916bda63ebd26390/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/3b33107b9d5e598a916bda63ebd26390/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/324b91c5eeae0fc6abf5bfcfe2ed1bf9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/324b91c5eeae0fc6abf5bfcfe2ed1bf9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/6d2003d0ba1ce819a01409319b8fd651/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/6d2003d0ba1ce819a01409319b8fd651/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/91c4ed88ccd9e845d129653fc8b34c62/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/91c4ed88ccd9e845d129653fc8b34c62/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/6de2012c93f8736a6723e7be21ef8191/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/6de2012c93f8736a6723e7be21ef8191/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/158477f2dff770a7c88010da947bd396/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/158477f2dff770a7c88010da947bd396/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/8a08ff07247c83800b9b01bed56b1d62/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/8a08ff07247c83800b9b01bed56b1d62/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/86a29ae36e0b33a15a8786fb914f2504/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/86a29ae36e0b33a15a8786fb914f2504/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/abf87c49b7750b5ad8e27a945ab5d834/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/abf87c49b7750b5ad8e27a945ab5d834/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/7bc2c95e432efe7ff945fdb62d4721f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/7bc2c95e432efe7ff945fdb62d4721f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/340ae6bb959802a812bd51578371966e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/340ae6bb959802a812bd51578371966e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/c1594b553643e4f6cec6052943647c15/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/c1594b553643e4f6cec6052943647c15/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/df526d7800ea6470dce10e4035c41a43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/df526d7800ea6470dce10e4035c41a43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6f97472855b41e7cd3b78fb801a38546/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6f97472855b41e7cd3b78fb801a38546/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/1623571b72f7d966ec7de3ba9d84d63f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/1623571b72f7d966ec7de3ba9d84d63f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/27cf7731d998fbec99898fb6a63f498d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/27cf7731d998fbec99898fb6a63f498d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/0f1ed0b0811dca979e0ca8d182d985d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/0f1ed0b0811dca979e0ca8d182d985d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/14083bf1223666c07e8fa2071618e797/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/14083bf1223666c07e8fa2071618e797/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/cccb245ecd4fa5b7a617ef5b7bf41c55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/cccb245ecd4fa5b7a617ef5b7bf41c55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/a7e81fa4a5fcb840d9037c8a02327665/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/a7e81fa4a5fcb840d9037c8a02327665/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1c537529cc63d9553f47d1d6e3baba1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1c537529cc63d9553f47d1d6e3baba1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/f9820aea6d255592d72a1cff5d524b6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/f9820aea6d255592d72a1cff5d524b6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/00d01e79c7bada98bdf15e738d2e62b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/00d01e79c7bada98bdf15e738d2e62b1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/49360698a9d3d880389a71bd82e23d17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/49360698a9d3d880389a71bd82e23d17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/19fbcb59b3a364596e6715b4ed43e168/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/19fbcb59b3a364596e6715b4ed43e168/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c3769644180ca37c2fb73db94839055b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c3769644180ca37c2fb73db94839055b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/0d08505cf2d144d7ecf7bb8c3b3c32d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/0d08505cf2d144d7ecf7bb8c3b3c32d5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/9306061ae32a4eafa6a142877cc80d9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/9306061ae32a4eafa6a142877cc80d9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/4750d28ce93ce67b04fd4646f796fd62/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/4750d28ce93ce67b04fd4646f796fd62/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/eb703a87ede8d948a8899884835e3697/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/eb703a87ede8d948a8899884835e3697/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/7c5a87a39bf010c43403f589cfbb2ab6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/7c5a87a39bf010c43403f589cfbb2ab6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/674ad50a122a6f69f9ff37080a2151e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/674ad50a122a6f69f9ff37080a2151e4/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/736eb7a539df7f84b217570be368c018/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/736eb7a539df7f84b217570be368c018/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/32f7c906173fbbf6f6aa3ecd7991afc0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/32f7c906173fbbf6f6aa3ecd7991afc0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/c0cee50477f3f9bf0cadc7a10efe3e2e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/c0cee50477f3f9bf0cadc7a10efe3e2e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/8a4c1dc113168e6335c4a5dc5d1fdc32/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/8a4c1dc113168e6335c4a5dc5d1fdc32/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/8c4d6cc712b770b7d6e99771385cdf7c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/8c4d6cc712b770b7d6e99771385cdf7c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/de859a1de60e4d1e5eb41067bd2d0085/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/de859a1de60e4d1e5eb41067bd2d0085/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/6de877c0a4b6d844b1f11cb864f78297/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/6de877c0a4b6d844b1f11cb864f78297/AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/f7002d75f1e831d694f9aca38275b90e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/f7002d75f1e831d694f9aca38275b90e/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] /Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/83568d27f5a885d3a7f54c2696064984/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/56a22901a63d3cd22eea4e2bba367f38/AndroidManifest.xml:26:13-120

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/b9fb7c82be46a39907f0d2490923e13c/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/perezs4/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/ff18b0b523310660e502302c16596028/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

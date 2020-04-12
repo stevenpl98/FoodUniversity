@@ -1,20 +1,12 @@
-import React, { Component } from 'react';
-import { Text, View } from 'react-native';
-import AppContainer from './src/navigations/AppNavigation';
-import HomeScreen from './src/screens/Home/HomeScreen';
-import CategoriesScreen from './src/screens/Categories/CategoriesScreen';
-import {
-  DrawerNavigator,
-  StackNavigator,
-  createStackNavigator,
-  createAppContainer
-} from 'react-navigation';
-import SplashScreen from './src/screens/Splash/SplashScreen';
+import React from "react";
+import { Provider } from "react-native-paper";
+import App from "./src";
+import { theme } from "./src/core/theme";
 
-class FoodApp extends React.Component {
-  render() {
-    return <AppContainer />;
-  }
-}
+const Main = () => (
+  <Provider theme={theme}>
+    <App />
+  </Provider>
+);
 
-export default FoodApp;
+export default Main;
