@@ -1,4 +1,0 @@
-#Sat Apr 11 22:24:13 EDT 2020
-base.0=/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
-path.0=classes.dex
