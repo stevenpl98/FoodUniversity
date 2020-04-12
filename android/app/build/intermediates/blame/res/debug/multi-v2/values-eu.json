@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/perezs4/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/1c537529cc63d9553f47d1d6e3baba1a/res/values-eu/values-eu.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/perezs4/Desktop/Wajih/react-native-firebase-login-screen-master/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
+            "outputFile": "/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
             "map": [
                 {
                     "source": "/Users/perezs4/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/01429612c84c15d773c1a51b8173117f/res/values-af/values.xml",

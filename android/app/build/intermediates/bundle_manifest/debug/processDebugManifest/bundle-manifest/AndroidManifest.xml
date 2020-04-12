@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fooduniversity"
+    package="com.fooduni"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -36,7 +36,7 @@
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- END OPTIONAL PERMISSIONS -->
     <application
-        android:name="com.fooduniversity.MainApplication"
+        android:name="com.fooduni.MainApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -45,7 +45,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.fooduniversity.MainActivity"
+            android:name="com.fooduni.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize" >
@@ -59,7 +59,7 @@
 
         <provider
             android:name="expo.modules.filesystem.FileSystemFileProvider"
-            android:authorities="com.fooduniversity.FileSystemFileProvider"
+            android:authorities="com.fooduni.FileSystemFileProvider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
