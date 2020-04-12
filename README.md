@@ -176,7 +176,7 @@ If you already have an emulator set up start at step 7.
 8. Open Android Studio, go to Configure > AVD Manager or repeat step 6 if you have created a project
 9. Click the green play button at the right of your emulator of choice
 10. The emulator should start booting up soon and keep it running
-11. Open your terminal of choice then (other than cmd in WIndows):
+11. Open your terminal of choice then (other than cmd in Windows):
 
     **Keep in mind that the in the second line ' _ ' represents a space in the name of your emulator**
     * For Mac OS   
