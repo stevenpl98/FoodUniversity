@@ -1,29 +1,14 @@
-# config.json
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
 
-# Gradle
-/build/
-/RNTester/android/app/build/
-/RNTester/android/app/gradle/
-/RNTester/android/app/gradlew
-/RNTester/android/app/gradlew.bat
-/ReactAndroid/build/
-/ReactAndroid/gradle/
-/ReactAndroid/gradlew
-/ReactAndroid/gradlew.bat
-
-# Android
-.idea
-.gradle
-local.properties
-*.iml
-/android/
-
-# Node
-node_modules
-*.log
-.nvm
-/bots/node_modules/
-package-lock.json
-
-# OS X
+# macOS
 .DS_Store

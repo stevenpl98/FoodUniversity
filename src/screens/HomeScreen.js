@@ -5,13 +5,13 @@ import Header from "../components/Header";
 import Button from "../components/Button";
 import Paragraph from "../components/Paragraph";
 
-const LoginHome = ({ navigation }) => (
+const HomeScreen = ({ navigation }) => (
   <Background>
     <Logo />
-    <Header>FoodUniversity</Header>
+    <Header>Firebase Login</Header>
 
     <Paragraph>
-      Quick Cheap College Eats
+      This template supports Firebase authorization out of the box.
     </Paragraph>
     <Button mode="contained" onPress={() => navigation.navigate("LoginScreen")}>
       Login
@@ -25,4 +25,4 @@ const LoginHome = ({ navigation }) => (
   </Background>
 );
 
-export default memo(LoginHome);
+export default memo(HomeScreen);
