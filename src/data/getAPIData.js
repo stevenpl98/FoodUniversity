@@ -170,7 +170,7 @@ function main()
 
     //sendSearchByCuisine(cuisine);
 
-    //sendIdsByItem(item, offset);
+    sendIdsByItem(item, offset);
 
     //sendIdsByCuisine(cuisine, 0);
 
@@ -192,7 +192,7 @@ function main()
 
     //sendRecipeTitle(id)
 
-    sendRecipeImage(id)
+    //sendRecipeImage(id)
 }
 
 main();

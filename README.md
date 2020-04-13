@@ -1,8 +1,18 @@
-![NodeJS Initial](https://github.com/stevenpl98/FoodUniversity/workflowsNodeJS%20Initial/badge.svg)
+![NodeJS Testing](https://github.com/stevenpl98/FoodUniversity/workflows/NodeJS%20Testing/badge.svg)
 
 # Food University
 
 ## Introduction
+For many college students, living on campus is their first experience with independence. With that requires them being able to handle all facets of daily life, the most essential being handling meals. Many of the problems that are associated with this revolve around little to no experience with cooking, and ready made meals being so expensive. Making home made meals can reduce food expenses by hundreds of dollars a month, but this can be incredibly daunting to the inexperienced.
+
+With our app, students will have access to a large selection of recipes
+* Recipe Pictures
+* Ingredients
+* Equipment
+* Instructions
+* Ready Time
+* Servings and Cost per Serving
+* Large selection of recipes
 
 
 ## Features
@@ -224,8 +234,8 @@ alt="Food University Demo" width="240" height="180" border="10" /></a>
 
 ## Contributors
 
-* Steven Perez- Team Lead, Backend, Frontend & Testing
-* Nick Burke- Front End & Backend
-* Wajih Khawaja- Front End & Backend
-* Reymond Kabuye- Front End
+* Steven Perez- Team Lead, Back-End, Front-End & Testing
+* Nick Burke- Front-End & Back-End
+* Wajih Khawaja- Front-End & Back-End
+* Reymond Kabuye- Front-End
 
