@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Apr 10 15:29:33 EDT 2020
+#Mon Apr 13 19:27:50 EDT 2020
 33.base=C\:\\Users\\sperez07\\Documents\\Github\\FoodUniversity\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 47.base=C\:\\Users\\sperez07\\Documents\\Github\\FoodUniversity\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 50.base=C\:\\Users\\sperez07\\Documents\\Github\\FoodUniversity\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0

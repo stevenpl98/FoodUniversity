@@ -1,4 +1,4 @@
-#Fri Apr 10 15:29:29 EDT 2020
+#Mon Apr 13 19:27:48 EDT 2020
 base.0=C\:\\Users\\sperez07\\Documents\\Github\\FoodUniversity\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
 path.0=classes.dex
