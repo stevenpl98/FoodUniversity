@@ -173,26 +173,28 @@ function main()
     //sendIdsByItem(item, offset);
 
     //sendIdsByCuisine(cuisine, 0);
+    id =  262825
 
-    //sendInstructions(id);
+    sendInstructions(id);
 
-    //sendIngredients(id);
+    sendIngredients(id);
 
-    //sendIngredientImages(id)
+    sendIngredientImages(id)
 
     //sendIngredientsWithImage(id);
 
-    //sendEquipment(id);
+    sendEquipment(id);
 
-    //sendPrice(id);
+    sendPrice(id);
 
-    //sendServings(id);
+    sendServings(id);
 
-    //sendReadyTime(id);
+    sendReadyTime(id);
 
-    //sendRecipeTitle(id)
+    sendRecipeTitle(id)
 
     sendRecipeImage(id)
+
 }
 
 main();
