@@ -53,7 +53,7 @@ const MainNavigator = createStackNavigator(
     IngredientsDetailsScreen
   },
   {
-    initialRouteName: 'InitialScreen',
+    initialRouteName: 'HomeScreen',
     headerMode: 'none',
     /*defaulfNavigationOptions: ({ navigation }) => ({
       headerTitleStyle: {
@@ -81,5 +81,6 @@ const DrawerStack = createDrawerNavigator(
 );
 
 export default createAppContainer(MainNavigator);//AppContainer = createAppContainer(DrawerStack);
+//export default AppContainer = createAppContainer(DrawerStack);
 
 //console.disableYellowBox = true;
