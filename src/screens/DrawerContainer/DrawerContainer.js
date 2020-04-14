@@ -19,7 +19,7 @@ export default class DrawerContainer extends React.Component {
             }}
           />
           <MenuButton
-            title="CATEGORIES"
+            title="CUISINES"
             source={require('../../../assets/icons/category.png')}
             onPress={() => {
               navigation.navigate('Categories');

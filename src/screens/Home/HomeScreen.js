@@ -6,18 +6,9 @@ import MenuImage from '../../components/MenuImage/MenuImage';
 import DrawerActions from 'react-navigation';
 import { getCategoryName } from '../../data/MockDataAPI';
 
-import DrawerContainer from '../DrawerContainer/DrawerContainer';
-
 export default class HomeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => ({
     title: 'Home',
-    /*headerTitleStyle: {
-      fontWeight: 'bold',
-      textAlign: 'center',
-      alignSelf: 'center',
-      flex: 1,
-      fontFamily: 'FallingSkyCond'
-    },*/
     headerLeft: (
       <MenuImage
         onPress={() => {

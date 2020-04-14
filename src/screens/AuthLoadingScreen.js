@@ -14,9 +14,11 @@ const AuthLoadingScreen = ({ navigation }) => {
     if (user) {
       // User is logged in
       navigation.navigate('HomeScreen');
+      
     } else {
       // User is not logged in
       navigation.navigate("InitialScreen");
+     
     }
   });
 
