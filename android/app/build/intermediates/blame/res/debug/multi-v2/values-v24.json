@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\perezs4\\Desktop\\Nick\\FoodUniversity\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\sperez07\\Documents\\Github\\FoodUniversity\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\perezs4\\.gradle\\caches\\transforms-2\\files-2.1\\4a68fb54956c90269688a6170c3e1c9a\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\sperez07\\.gradle\\caches\\transforms-2\\files-2.1\\bdca859a45f3866fc71ae45c9ea2d93d\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
