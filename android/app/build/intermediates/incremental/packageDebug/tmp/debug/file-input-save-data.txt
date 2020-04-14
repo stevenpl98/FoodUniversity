@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 13 19:09:16 EDT 2020
+#Mon Apr 13 21:24:42 EDT 2020
 33.base=/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 47.base=/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 50.base=/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/merged_assets/debug/out

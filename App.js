@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import AppContainer from './src/AppNavigation';
-import HomeScreen from './src/screens/HomeScreen';
+import HomeScreen from './src/screens/Home/HomeScreen';
 import CategoriesScreen from './src/screens/Categories/CategoriesScreen';
 import {
   DrawerNavigator,

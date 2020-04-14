@@ -14,7 +14,7 @@ import IngredientsDetailsScreen from './screens/IngredientsDetails/IngredientsDe
 import AuthScreen from './screens/AuthLoadingScreen';
 import DashboardScreen from './screens/Dashboard';
 import ForgotScreen from './screens/ForgotPasswordScreen';
-import InitialScreen from './screens/HomeScreen';
+import InitialScreen from './screens/InitialScreen';
 import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 
@@ -22,7 +22,7 @@ import RegisterScreen from './screens/RegisterScreen';
 const MainNavigator = createStackNavigator(
   {
 
-    Init: InitialScreen,
+    /*Init: InitialScreen,
     Auth: AuthScreen,
     Dashboard: DashboardScreen,
     Forgot: ForgotScreen,
@@ -35,12 +35,27 @@ const MainNavigator = createStackNavigator(
     RecipesList: RecipesListScreen,
     Ingredient: IngredientScreen,
     Search: SearchScreen,
-    IngredientsDetails: IngredientsDetailsScreen
+    IngredientsDetails: IngredientsDetailsScreen*/
+
+    InitialScreen,
+    AuthScreen,
+    DashboardScreen,
+    ForgotScreen,
+    LoginScreen,
+    RegisterScreen,
+
+    HomeScreen,
+    CategoriesScreen,
+    RecipeScreen,
+    RecipesListScreen,
+    IngredientScreen,
+    SearchScreen,
+    IngredientsDetailsScreen
   },
   {
-    initialRouteName: 'Init',
-    // headerMode: 'float',
-    defaulfNavigationOptions: ({ navigation }) => ({
+    initialRouteName: 'InitialScreen',
+    headerMode: 'none',
+    /*defaulfNavigationOptions: ({ navigation }) => ({
       headerTitleStyle: {
         fontWeight: 'bold',
         textAlign: 'center',
@@ -48,10 +63,11 @@ const MainNavigator = createStackNavigator(
         flex: 1,
         fontFamily: 'FallingSkyCond'
       }
-    })
+    })*/
   }
 );
 
+//creates the nav drawer
 const DrawerStack = createDrawerNavigator(
   {
     Main: MainNavigator
@@ -64,6 +80,6 @@ const DrawerStack = createDrawerNavigator(
   }
 );
 
-export default AppContainer = createAppContainer(DrawerStack);
+export default createAppContainer(MainNavigator);//AppContainer = createAppContainer(DrawerStack);
 
-console.disableYellowBox = true;
+//console.disableYellowBox = true;
