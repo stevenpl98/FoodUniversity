@@ -1,20 +1,20 @@
 ![NodeJS Testing](https://github.com/stevenpl98/FoodUniversity/workflows/NodeJS%20Testing/badge.svg)
-
 # Food University
 
 ## Introduction
-
+For many college students, living on campus is their first experience with independence. With that requires them being able to handle all facets of daily life, the most essential being handling meals. Many of the problems that are associated with this revolve around little to no experience with cooking, and ready made meals being so expensive. Making home made meals can reduce food expenses by hundreds of dollars a month, but this can be incredibly daunting to the inexperienced. With our app, students will have access to a large selection of recipes
 
 ## Features
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9.
+1. New user account creation authenticated with Firebase
+2. View pre-listed recipes of specific food items
+3. View recipe title with picture/s
+4. View recipe ingredients with pictures
+5. View list of equipment needed for recipse preparation
+6. View recipe instructions
+7. View recipe ready time
+8. View servings and cost per serving
+9. Search for recipes based on cuisine
+10. Search for recipes based on food content (chicken, pasta, etc.)
 
 
 ## Getting Started
@@ -218,14 +218,13 @@ Now, for both Mac OS and Windows, running the app is pretty much the same.
 
 Check out our demo video on youtube below:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CzP_5fZXbn8
+" target="_blank"><img src="http://img.youtube.com/vi/CzP_5fZXbn8/0.jpg" 
 alt="Food University Demo" width="240" height="180" border="10" /></a>
 
 ## Contributors
 
-* Steven Perez- Team Lead, Backend, Frontend & Testing
-* Nick Burke- Front End & Backend
-* Wajih Khawaja- Front End & Backend
-* Reymond Kabuye- Front End
-
+* Steven Perez- Team Lead, Back-End, Front-End & Testing
+* Nick Burke- Front-End & Back-End
+* Wajih Khawaja- Front-End & Back-End
+* Reymond Kabuye- Front-End & Back-End
