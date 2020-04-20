@@ -164,16 +164,17 @@ function main()
     var item = "chicken";
     var cuisine = cuisines[0];
 
-    //sendSearch(item);
+    sendSearch(item);
 
-    //sendComplexSearch(item);
+    sendComplexSearch(item);
 
-    //sendSearchByCuisine(cuisine);
+    sendSearchByCuisine(cuisine);
 
-    //sendIdsByItem(item, offset);
+    sendIdsByItem(item, offset);
 
-    //sendIdsByCuisine(cuisine, 0);
-    id =  262825
+    sendIdsByCuisine(cuisine, 0);
+
+    //id =  262825
 
     sendInstructions(id);
 
@@ -181,7 +182,7 @@ function main()
 
     sendIngredientImages(id)
 
-    //sendIngredientsWithImage(id);
+    sendIngredientsWithImage(id);
 
     sendEquipment(id);
 
