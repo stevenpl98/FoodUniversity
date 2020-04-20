@@ -228,5 +228,5 @@ alt="Food University Demo" width="240" height="180" border="10" /></a>
 * Steven Perez- Team Lead, Back-End, Front-End & Testing
 * Nick Burke- Front-End & Back-End
 * Wajih Khawaja- Front-End & Back-End
-* Reymond Kabuye- Front-End
+* Reymond Kabuye- Front-End & Back-End
 
