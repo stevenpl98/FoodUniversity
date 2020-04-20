@@ -219,8 +219,8 @@ Now, for both Mac OS and Windows, running the app is pretty much the same.
 
 Check out our demo video on youtube below:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CzP_5fZXbn8
+" target="_blank"><img src="http://img.youtube.com/vi/CzP_5fZXbn8/0.jpg" 
 alt="Food University Demo" width="240" height="180" border="10" /></a>
 
 ## Contributors
