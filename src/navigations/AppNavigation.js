@@ -1,4 +1,6 @@
-import { createDrawerNavigator, createStackNavigator, createAppContainer } from 'react-navigation';
+import { createDrawerNavigator, createAppContainer } from 'react-navigation';
+import { createStackNavigator } from "react-navigation-stack";
+
 import HomeScreen from '../screens/Home/HomeScreen';
 import CategoriesScreen from '../screens/Categories/CategoriesScreen';
 import RecipeScreen from '../screens/Recipe/RecipeScreen';
@@ -8,9 +10,41 @@ import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
 
+
+import AuthScreen from '../screens/AuthLoadingScreen';
+import DashboardScreen from '../screens/Dashboard';
+import ForgotScreen from '../screens/ForgotPasswordScreen';
+import InitialScreen from '../screens/InitialScreen';
+import LoginScreen from '../screens/LoginScreen';
+import RegisterScreen from '../screens/RegisterScreen';
+
+
 const MainNavigator = createStackNavigator(
   {
+
+    /*Init: InitialScreen,
+    Auth: AuthScreen,
+    Dashboard: DashboardScreen,
+    Forgot: ForgotScreen,
+    Login: LoginScreen,
+    Register: RegisterScreen,
+
     Home: HomeScreen,
+    Categories: CategoriesScreen,
+    Recipe: RecipeScreen,
+    RecipesList: RecipesListScreen,
+    Ingredient: IngredientScreen,
+    Search: SearchScreen,
+    IngredientsDetails: IngredientsDetailsScreen*/
+
+    InitialScreen,
+    AuthScreen,
+    DashboardScreen,
+    ForgotScreen,
+    LoginScreen,
+    RegisterScreen,
+
+    HomeScreen: HomeScreen,
     Categories: CategoriesScreen,
     Recipe: RecipeScreen,
     RecipesList: RecipesListScreen,
@@ -19,9 +53,9 @@ const MainNavigator = createStackNavigator(
     IngredientsDetails: IngredientsDetailsScreen
   },
   {
-    initialRouteName: 'Home',
-    // headerMode: 'float',
-    defaulfNavigationOptions: ({ navigation }) => ({
+    initialRouteName: 'InitialScreen',
+    //headerMode: 'none',
+    /*defaulfNavigationOptions: ({ navigation }) => ({
       headerTitleStyle: {
         fontWeight: 'bold',
         textAlign: 'center',
@@ -29,10 +63,11 @@ const MainNavigator = createStackNavigator(
         flex: 1,
         fontFamily: 'FallingSkyCond'
       }
-    })
+    })*/
   }
 );
 
+//creates the nav drawer
 const DrawerStack = createDrawerNavigator(
   {
     Main: MainNavigator
@@ -45,6 +80,7 @@ const DrawerStack = createDrawerNavigator(
   }
 );
 
+//export default createAppContainer(MainNavigator);//AppContainer = createAppContainer(DrawerStack);
 export default AppContainer = createAppContainer(DrawerStack);
 
-console.disableYellowBox = true;
+//console.disableYellowBox = true;

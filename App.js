@@ -11,9 +11,20 @@ import {
 } from 'react-navigation';
 import SplashScreen from './src/screens/Splash/SplashScreen';
 
-class FoodApp extends React.Component {
-  render() {
+
+import { Provider } from "react-native-paper";
+import App from "./src/screens";
+import { theme } from "./src/core/theme";
+
+class FoodApp extends React.Component 
+{
+  /*render() 
+  {
     return <AppContainer />;
+  }*/
+  render() 
+  {
+    return <Provider theme={theme}><AppContainer /></Provider>;
   }
 }
 

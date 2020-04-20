@@ -1,4 +1,4 @@
-![NodeJS Master](https://github.com/stevenpl98/FoodUniversity/workflows/NodeJS%20Master/badge.svg)
+![NodeJS Testing](https://github.com/stevenpl98/FoodUniversity/workflows/NodeJS%20Testing/badge.svg)
 # Food University
 
 ## Introduction
