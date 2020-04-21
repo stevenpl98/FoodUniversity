@@ -12,7 +12,6 @@ import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsD
 
 
 import AuthScreen from '../screens/AuthLoadingScreen';
-import DashboardScreen from '../screens/Dashboard';
 import ForgotScreen from '../screens/ForgotPasswordScreen';
 import InitialScreen from '../screens/InitialScreen';
 import LoginScreen from '../screens/LoginScreen';
@@ -24,7 +23,6 @@ const MainNavigator = createStackNavigator(
 
     /*Init: InitialScreen,
     Auth: AuthScreen,
-    Dashboard: DashboardScreen,
     Forgot: ForgotScreen,
     Login: LoginScreen,
     Register: RegisterScreen,
@@ -39,7 +37,6 @@ const MainNavigator = createStackNavigator(
 
     InitialScreen,
     AuthScreen,
-    DashboardScreen,
     ForgotScreen,
     LoginScreen,
     RegisterScreen,
