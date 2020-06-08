@@ -13,7 +13,7 @@ const HomeScreen = ({ navigation }) => (
     <Paragraph>
       Please sign up or log in below and enjoy!
     </Paragraph>
-    <Button mode="contained" onPress={() => navigation.navigate("HomeScreen")}>
+    <Button mode="contained" onPress={() => navigation.navigate("LoginScreen")}>
       Login
     </Button>
     <Button

@@ -14,7 +14,7 @@ export default class DrawerContainer extends React.Component {
             title="HOME"
             source={require('../../../assets/icons/home.png')}
             onPress={() => {
-              navigation.navigate('Home');
+              navigation.navigate('HomeScreen');
               navigation.closeDrawer();
             }}
           />
@@ -31,6 +31,14 @@ export default class DrawerContainer extends React.Component {
             source={require('../../../assets/icons/search.png')}
             onPress={() => {
               navigation.navigate('Search');
+              navigation.closeDrawer();
+            }}
+          />
+          <MenuButton
+            title="LOGOUT"
+            //source={require('../../../assets/icons/search.png')}
+            onPress={() => {
+              navigation.navigate('LogoutScreen');
               navigation.closeDrawer();
             }}
           />

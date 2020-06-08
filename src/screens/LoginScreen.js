@@ -42,11 +42,10 @@ const LoginScreen = ({ navigation }) => {
 
     setLoading(false);
   };
+  //< BackButton goBack={() => navigation.navigate("InitialScreen")} />
 
   return (
     <Background>
-      <BackButton goBack={() => navigation.navigate("InitialScreen")} />
-
       <Logo />
 
       <Header>Welcome back.</Header>
@@ -77,7 +76,7 @@ const LoginScreen = ({ navigation }) => {
 
       <View style={styles.forgotPassword}>
         <TouchableOpacity
-          onPress={() => navigation.navigate("ForgotPasswordScreen")}
+          onPress={() => navigation.navigate("ForgotScreen")}
         >
           <Text style={styles.label}>Forgot your password?</Text>
         </TouchableOpacity>

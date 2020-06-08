@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/b92618f5863ae91e0d70783ca03c3904/res/values-eu/values-eu.xml",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/ab48302ecd04cc069f744025dbde0c10/res/values-eu/values-eu.xml",
+                    "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/f191e16b44785ef7dad3f7c4bbb56138/res/values-eu/values-eu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

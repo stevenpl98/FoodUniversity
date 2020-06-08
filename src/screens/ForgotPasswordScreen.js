@@ -41,11 +41,10 @@ const ForgotPasswordScreen = ({ navigation }) => {
 
     setLoading(false);
   };
-
+  
+  < BackButton goBack={() => navigation.navigate("InitialScreen")} />
   return (
     <Background>
-      <BackButton goBack={() => navigation.navigate("LoginScreen")} />
-
       <Logo />
 
       <Header>Restore Password</Header>

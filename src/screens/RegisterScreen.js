@@ -50,11 +50,9 @@ const RegisterScreen = ({ navigation }) => {
 
     setLoading(false);
   };
-
+  //< BackButton goBack={() => navigation.navigate("InitialScreen")} />
   return (
     <Background>
-      <BackButton goBack={() => navigation.navigate("InitialScreen")} />
-
       <Logo />
 
       <Header>Create Account</Header>

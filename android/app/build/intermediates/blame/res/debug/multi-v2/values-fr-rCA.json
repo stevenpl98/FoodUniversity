@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/perezs4/Desktop/Wajih/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/Users/perezs4/Google Drive/Programming/Wentworth/Final Projects/FoodUniversity/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/ab48302ecd04cc069f744025dbde0c10/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/perezs4/.gradle/caches/transforms-2/files-2.1/f191e16b44785ef7dad3f7c4bbb56138/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
